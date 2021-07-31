@@ -179,7 +179,7 @@ This process is responsible for injecting and transmitting data packets to the t
 ```
 
 ## CSMA / CA MAC Layer
-The MAC Layer responsible for the CSMA / CA protocol is of importance and the process of data acknowledgement and the use of a backoff timer are considered to be key variables central to the CSMA / CA mechanism.
+The MAC Layer responsible for the CSMA / CA protocol is of importance and the process of data acknowledgement, contention windows, and the use of a backoff timer are considered to be key variables central to the CSMA / CA mechanism.
 ![image](https://user-images.githubusercontent.com/77028776/127754588-8f96330c-a9c1-4408-9012-54346affe7d7.png)
 
 ## Functions and Definitions (CSMA / CA)
