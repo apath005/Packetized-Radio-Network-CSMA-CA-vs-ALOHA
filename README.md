@@ -10,17 +10,18 @@ For CSMA/CA MAC , the medium must be quiet for the period of DIFS before transmi
 ![image](https://user-images.githubusercontent.com/77028776/127751910-1406b507-631b-4d2e-bcd7-104454e18766.png)
 
 This process is responsible for injecting and transmitting data packets to the transceiver and uses a wait time and backoff timer to count down the packet inter-arrival time until the next packet arrives.
+```
 /* Chart: '<S11>/Link Logic Control ' */
-3064	  /* Gateway: Radio_Node1/Link Logic Control  */
-3065	  /* During: Radio_Node1/Link Logic Control  */
-3066	  if (localDW->is_active_c17_Packet_Radio_Network_TxRx_lib == 0U) {
-3067	    /* Entry: Radio_Node1/Link Logic Control  */
-3068	    localDW->is_active_c17_Packet_Radio_Network_TxRx_lib = 1U;
-3069	
-3070	    /* Entry Internal: Radio_Node1/Link Logic Control  */
-3071	    /* Transition: '<S12>:6' */
-3072	    localDW->TxFlCntMax = 100.0;
-3073	    localB->TxLength = 92.0;
+/* Gateway: Radio_Node1/Link Logic Control  */
+/* During: Radio_Node1/Link Logic Control  */
+	  if (localDW->is_active_c17_Packet_Radio_Network_TxRx_lib == 0U) {
+	    /* Entry: Radio_Node1/Link Logic Control  */
+	    localDW->is_active_c17_Packet_Radio_Network_TxRx_lib = 1U;
+	
+	    /* Entry Internal: Radio_Node1/Link Logic Control  */
+	    /* Transition: '<S12>:6' */
+	    localDW->TxFlCntMax = 100.0;
+	    localB->TxLength = 92.0;
 3074	    if (rtp_pseed < 4.294967296E+9) {
 3075	      if (rtp_pseed >= 0.0) {
 3076	        seed = (uint32_T)rtp_pseed;
@@ -158,7 +159,8 @@ This process is responsible for injecting and transmitting data packets to the t
 3208	  }
 3209	
 3210	  /* End of Chart: '<S11>/Link Logic Control ' */
-3211	
+3211	}
+```
 ## Acknowledgement Frames
 Source code:
 
