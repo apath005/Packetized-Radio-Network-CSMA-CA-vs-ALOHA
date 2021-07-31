@@ -25,6 +25,7 @@ For CSMA/CA MAC , the medium must be quiet for the period of DIFS before transmi
 ![image](https://user-images.githubusercontent.com/77028776/127751910-1406b507-631b-4d2e-bcd7-104454e18766.png)
 
 This process is responsible for injecting and transmitting data packets to the transceiver and uses a wait time and backoff timer to count down the packet inter-arrival time until the next packet arrives.
+
 ```
 /* Chart: '<S11>/Link Logic Control ' */
 /* Gateway: Radio_Node1/Link Logic Control  */
@@ -176,6 +177,11 @@ This process is responsible for injecting and transmitting data packets to the t
 3210	  /* End of Chart: '<S11>/Link Logic Control ' */
 3211	}
 ```
+
+## CSMA / CA MAC Layer
+The MAC Layer responsible for the CSMA / CA protocol is of importance and the process of data acknowledgement and the use of a backoff timer are considered to be key variables central to the CSMA / CA mechanism.
+![image](https://user-images.githubusercontent.com/77028776/127754588-8f96330c-a9c1-4408-9012-54346affe7d7.png)
+
 ## Functions and Definitions (CSMA / CA)
 ```
 /* Function for Chart: '<S14>/CSMA//CA MAC' */
