@@ -1,6 +1,15 @@
 # 3-Node-Packetized-Radio-Network-CSMA-CA
 This model is intended to simulate a 3- node PHY / MAC network. The goal is to find the mechanisms related to CSMA / CA protocol within our generated source code.
 For the purpose of this simulation, we are only concerned with primarily the MAC layer and transmission of data frames.
+
+> To run the simulation:
+1. Simulink Model Link (Download): https://www.mathworks.com/matlabcentral/fileexchange/65329-model-files-for-article-building-a-packet-data-radio-network-in-simulink. Once downloaded, open file "Packetized_Radio_3Node.slx" which will open the Simulink model. The file should open if both Matlab and Simulink are correctly installed.
+2. Download GCC compiler for Windows to compile C++ code: https://www.mathworks.com/matlabcentral/fileexchange/52848-matlab-support-for-mingw-w64-c-c-compiler
+3. Click "Get Add - Ons" link directly from the Apps heading. Download and install "Matlab Coder" and "Simulink Coder".
+4. Once both Apps have been installed, run the Simulink model by clicking the 'Run' command under the Simulation heading.
+5. After the simulation has completed, click on Apps, search for and click on Simulink Coder to access the C Code heading. 
+6. Look for and click on the 'Build' command to build the code generation report. Click 'View Report' to access the generated code for the simulation run.
+
 For CSMA/CA MAC , the medium must be quiet for the period of DIFS before transmitting, then the node starts the random Contention Window (CW) period. At the end of the CW, if the medium is still quiet, the node starts to transmit a Data frame; otherwise it waits for another quiet DIFS period. When the transmitting node hears an Ack frame within the SIFS period, it will transmit the next Data frame; otherwise it enters the DIFS period again.
 
 ## CSMA / CA MAC Layer traffic
