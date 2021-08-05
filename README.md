@@ -14,7 +14,7 @@ Once downloaded, open the model file "Packetized_Radio_3Node.slx" which will ope
 
 ### To view the sample model:
 1. Open the model file "Packetized_Radio_3Node.slx" which will open the Simulink model. The file should open if both Matlab and Simulink are correctly installed.
-2. Run the command 'openExample('comm/ALOHAAndCSMACAPacketizedNetworkExample')' in the command window to view a more detailed example of the 3 Node Network.
+2. Run the command ```openExample('comm/ALOHAAndCSMACAPacketizedNetworkExample')``` in the command window to view a more detailed example of the 3 Node Network.
 3. Allow the model to load and click 'Run' under the Simulation heading to view the collisions and backoff data points of each node.
 
 ## CSMA / CA MAC Layer traffic
