@@ -2,17 +2,24 @@
 This model is intended to simulate a 3- node PHY / MAC network. The goal is to find the mechanisms related to CSMA / CA protocol within our generated source code.
 For the purpose of this simulation, we are only concerned with primarily the MAC layer and transmission of data frames.
 
-> To run the simulation:
-1. Simulink Model Link (Download): https://www.mathworks.com/matlabcentral/fileexchange/65329-model-files-for-article-building-a-packet-data-radio-network-in-simulink. Once downloaded, open file "Packetized_Radio_3Node.slx" which will open the Simulink model. The file should open if both Matlab and Simulink are correctly installed.
-2. Download GCC compiler for Windows to compile C++ code: https://www.mathworks.com/matlabcentral/fileexchange/52848-matlab-support-for-mingw-w64-c-c-compiler
-3. Click "Get Add - Ons" link directly from the Apps heading. Download and install "Matlab Coder" and "Simulink Coder".
+### To run the simulation and generate code:
+1. Simulink Model Link (Download): https://www.mathworks.com/matlabcentral/fileexchange/65329-model-files-for-article-building-a-packet-data-radio-network-in-simulink. 
+Once downloaded, open the model file "Packetized_Radio_3Node.slx" which will open the Simulink model in Matlab. The file should open if both Matlab and Simulink are correctly installed.
+2. Download a GCC compiler support for Windows to compile C++ code: https://www.mathworks.com/matlabcentral/fileexchange/52848-matlab-support-for-mingw-w64-c-c-compiler
+3. In Matlab, click "Get Add - Ons" link directly from the Apps heading. Download and install "Matlab Coder" and "Simulink Coder".
 4. Once both Apps have been installed, run the Simulink model by clicking the 'Run' command under the Simulation heading.
 5. After the simulation has completed, click on Apps, search for and click on Simulink Coder to access the C Code heading. 
-6. Look for and click on the 'Build' command to build the code generation report. Click 'View Report' to access the generated code for the simulation run.
+6. Look for and click on the 'Build' command to build the code generation report. Allow the build to load, and click 'Open Report' to access the generated code for the simulation run.
+![image](https://user-images.githubusercontent.com/77028776/128271246-b8b298a8-1e5d-41b2-8172-3f858c541d58.png)
 
-For CSMA/CA MAC , the medium must be quiet for the period of DIFS before transmitting, then the node starts the random Contention Window (CW) period. At the end of the CW, if the medium is still quiet, the node starts to transmit a Data frame; otherwise it waits for another quiet DIFS period. When the transmitting node hears an Ack frame within the SIFS period, it will transmit the next Data frame; otherwise it enters the DIFS period again.
+### To view the sample model:
+1. Open the model file "Packetized_Radio_3Node.slx" which will open the Simulink model. The file should open if both Matlab and Simulink are correctly installed.
+2. Run the command 'openExample('comm/ALOHAAndCSMACAPacketizedNetworkExample')' in the command window to view a more detailed example of the 3 Node Network.
+3. Allow the model to load and click 'Run' under the Simulation heading to view the collisions and backoff data points of each node.
 
 ## CSMA / CA MAC Layer traffic
+For CSMA/CA MAC , the medium must be quiet for the period of DIFS before transmitting, then the node starts the random Contention Window (CW) period. At the end of the CW, if the medium is still quiet, the node starts to transmit a Data frame; otherwise it waits for another quiet DIFS period. When the transmitting node hears an Ack frame within the SIFS period, it will transmit the next Data frame; otherwise it enters the DIFS period again.
+
 ![image](https://user-images.githubusercontent.com/77028776/127751222-77b0f14a-57a3-4787-a705-ffcc96cc9540.png)
 
 - Constants 
