@@ -12,7 +12,7 @@ For the purpose of this simulation, we are concerned with primarily the MAC laye
 ![image](https://user-images.githubusercontent.com/77028776/128415147-a6725b06-61bf-476d-b575-a2d623133a25.png)
 
 5. Once both "MATLAB Coder" and "Simulink Coder" have been installed, run the Simulink model by clicking the 'Run' command under the Simulation heading bar. 
-> (Note: If MATLAB closes after installation of the MATLAB Coder and Simulink Coder Add - Ons, reopen the model file "Packetized_Radio_3Node.slx" to reopen the model > in Simulink.)
+> (Note: If MATLAB closes after installation of the MATLAB Coder and Simulink Coder Add - Ons, reopen the model file "Packetized_Radio_3Node.slx" to reopen the model in Simulink.)
 
 ![image](https://user-images.githubusercontent.com/77028776/128418600-b4775366-96c8-4174-96a3-99ee81bc59e9.png)
 
