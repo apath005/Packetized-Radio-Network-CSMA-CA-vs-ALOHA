@@ -10,6 +10,7 @@ Once downloaded, open the model file "Packetized_Radio_3Node.slx" which will ope
 4. Once both Apps have been installed, run the Simulink model by clicking the 'Run' command under the Simulation heading.
 5. After the simulation has completed, click on Apps, search for and click on Simulink Coder to access the C Code heading. 
 6. Look for and click on the 'Build' command to build the code generation report. Allow the build to load, and click 'Open Report' to access the generated code for the simulation run.
+
 ![image](https://user-images.githubusercontent.com/77028776/128271246-b8b298a8-1e5d-41b2-8172-3f858c541d58.png)
 
 ### To view the sample model:
