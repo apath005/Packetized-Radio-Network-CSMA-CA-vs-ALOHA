@@ -17,7 +17,7 @@ For the purpose of this simulation, we are concerned with primarily the MAC laye
 ![image](https://user-images.githubusercontent.com/77028776/128418600-b4775366-96c8-4174-96a3-99ee81bc59e9.png)
 
 6. After the simulation has completed, go to the Apps heading bar, search for and click on Simulink Coder which will open access to a C Code heading bar. 
-7. Look for and click on the 'Build' command to build the code generation report. Allow the build to load, and click 'Open Report' to access the generated code for the simulation run.
+7. Look for and click on the 'Build' command to build the Code Generation Report. Allow the build to load, and click 'Open Report' to access the generated code for the simulation run.
 
 ![image](https://user-images.githubusercontent.com/77028776/128271246-b8b298a8-1e5d-41b2-8172-3f858c541d58.png)
 
