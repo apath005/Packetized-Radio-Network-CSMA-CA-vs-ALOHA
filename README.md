@@ -6,7 +6,7 @@ For the purpose of this simulation, we are only concerned with primarily the MAC
 1. Simulink Model Link (Download): https://www.mathworks.com/matlabcentral/fileexchange/65329-model-files-for-article-building-a-packet-data-radio-network-in-simulink. 
 2. Once downloaded, open the model file "Packetized_Radio_3Node.slx" which will open the Simulink model in Matlab. The file should open if both Matlab and Simulink are correctly installed.
 3. Download a GCC compiler support for Windows to compile C++ code: https://www.mathworks.com/matlabcentral/fileexchange/52848-matlab-support-for-mingw-w64-c-c-compiler
-4. In Matlab, click "Get Add - Ons" link directly from the Apps heading. Download and install "MATLAB Coder" and "Simulink Coder".
+4. In Matlab, click on the "Get Add - Ons" link directly from the Apps heading. Download and install "MATLAB Coder" and "Simulink Coder".
 
 ![image](https://user-images.githubusercontent.com/77028776/128414943-e6d4c64c-d24e-4156-9e56-9a7af82cb8b8.png)
 ![image](https://user-images.githubusercontent.com/77028776/128415147-a6725b06-61bf-476d-b575-a2d623133a25.png)
