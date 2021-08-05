@@ -4,12 +4,12 @@ For the purpose of this simulation, we are only concerned with primarily the MAC
 
 ### To run the simulation and generate code:
 1. Simulink Model Link (Download): https://www.mathworks.com/matlabcentral/fileexchange/65329-model-files-for-article-building-a-packet-data-radio-network-in-simulink. 
-Once downloaded, open the model file "Packetized_Radio_3Node.slx" which will open the Simulink model in Matlab. The file should open if both Matlab and Simulink are correctly installed.
-2. Download a GCC compiler support for Windows to compile C++ code: https://www.mathworks.com/matlabcentral/fileexchange/52848-matlab-support-for-mingw-w64-c-c-compiler
-3. In Matlab, click "Get Add - Ons" link directly from the Apps heading. Download and install "Matlab Coder" and "Simulink Coder".
-4. Once both Apps have been installed, run the Simulink model by clicking the 'Run' command under the Simulation heading.
-5. After the simulation has completed, click on Apps, search for and click on Simulink Coder to access the C Code heading. 
-6. Look for and click on the 'Build' command to build the code generation report. Allow the build to load, and click 'Open Report' to access the generated code for the simulation run.
+2. Once downloaded, open the model file "Packetized_Radio_3Node.slx" which will open the Simulink model in Matlab. The file should open if both Matlab and Simulink are correctly installed.
+3. Download a GCC compiler support for Windows to compile C++ code: https://www.mathworks.com/matlabcentral/fileexchange/52848-matlab-support-for-mingw-w64-c-c-compiler
+4. In Matlab, click "Get Add - Ons" link directly from the Apps heading. Download and install "Matlab Coder" and "Simulink Coder".
+5. Once both Apps have been installed, run the Simulink model by clicking the 'Run' command under the Simulation heading.
+6. After the simulation has completed, click on Apps, search for and click on Simulink Coder to access the C Code heading. 
+7. Look for and click on the 'Build' command to build the code generation report. Allow the build to load, and click 'Open Report' to access the generated code for the simulation run.
 
 ![image](https://user-images.githubusercontent.com/77028776/128271246-b8b298a8-1e5d-41b2-8172-3f858c541d58.png)
 
